@@ -15,7 +15,8 @@ body {
 	--color-line: rgba(82,77,73,0.38);
 	color: var(--color-text);
 	background-color: var(--color-bg);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Frieze-Regular", sans-serif;
+	src: url(font/Frieze-Regular.ttf) format(opentype);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -37,12 +38,7 @@ a {
 	outline: none;
 }
 
-a:hover,
-a:focus {
-	color: var(--color-link-hover);
-	outline: none;
-	text-decoration: none;
-}
+
 
 main {
 	text-align: center;
